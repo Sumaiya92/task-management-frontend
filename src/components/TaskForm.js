@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import { TextField, Button, Paper, Typography, Container, Slider, MenuItem, Select } from '@mui/material';
+import { TextField, Button, Paper, Typography, Container, MenuItem, Select } from '@mui/material';
 import { useNavigate, useParams } from 'react-router-dom';
 
 const TaskForm = () => {
